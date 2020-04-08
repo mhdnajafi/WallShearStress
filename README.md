@@ -15,6 +15,10 @@ wall shear rate:
 
 or 
 
+shear rate tensor components:
+
+![](images/strain_tensor_components.png)
+
 wall shear rate components:
 
 ![](images/wall_shear_rate_components.png)
