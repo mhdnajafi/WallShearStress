@@ -1,7 +1,7 @@
 # Wall Shear Stress in 3D
 On Wall Shear Rate and Wall Shear Stress computation on Unstructured Grids using VMTK
 
-Here are some notes on the way wall shear stress calculated in VMTK package and also benchmark files.
+Here are some notes on the way wall shear stress calculated in VMTK package and also benchmark files to be added later.
 
 shear rate tensor: S = (\nabla u + (\nabla u)^{T}) / 2
 
