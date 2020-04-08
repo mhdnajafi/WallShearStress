@@ -3,14 +3,19 @@ On Wall Shear Rate and Wall Shear Stress computation on Unstructured Grids using
 
 Here are some notes on the way wall shear stress calculated in VMTK package and also benchmark 3D velocity fields.
 
-shear rate tensor: S = (\nabla u + (\nabla u)^{T}) / 2
+In simple words:
 
-wall shear rate: \vec {\sigma}_w = 2 * (S \cdot n - (n \cdot S \cdot n) \cdot n)
+shear rate tensor: ![](images/strain_tensor.png)
+
+wall shear rate: ![](images/wall_shear_rate.png)
 
 or 
 
-\vec \sigma_{wi} = (u_{i,j}+u_{j,i}) n_j - (u_{k,j}+u_{j,k}) n_j n_k n_i
+wall shear rate components: ![](images/wall_shear_rate_components.png)
 
 and
 
-\vec \tau_{wi} = \mu \, ( (u_{i,j}+u_{j,i}) n_j - (u_{k,j}+u_{j,k}) n_j n_k n_i )
+wall shear stress components: ![](images/wall_shear_rate_components.png)
+
+where
+![](images/velocity_gradient.png)
