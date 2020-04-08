@@ -3,7 +3,7 @@ On Wall Shear Rate and Wall Shear Stress computation on Unstructured Grids using
 
 Here are some notes on the way wall shear stress calculated in VMTK package and also benchmark 3D velocity fields.
 
-In simple words:
+In simple words, having a velocity field \vec u and wall normal vectors \vec n:
 
 shear rate tensor:
 
