@@ -5,17 +5,26 @@ Here are some notes on the way wall shear stress calculated in VMTK package and 
 
 In simple words:
 
-shear rate tensor: ![](images/strain_tensor.png)
+shear rate tensor:
 
-wall shear rate: ![](images/wall_shear_rate.png)
+![](images/strain_tensor.png)
+
+wall shear rate:
+
+![](images/wall_shear_rate.png)
 
 or 
 
-wall shear rate components: ![](images/wall_shear_rate_components.png)
+wall shear rate components:
+
+![](images/wall_shear_rate_components.png)
 
 and
 
-wall shear stress components: ![](images/wall_shear_rate_components.png)
+wall shear stress components:
+
+![](images/wall_shear_rate_components.png)
 
 where
+
 ![](images/velocity_gradient.png)
